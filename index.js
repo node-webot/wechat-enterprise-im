@@ -1,5 +1,4 @@
 var wechat_im = require('./lib/wechat-enterprise-im');
-// wechat.List = require('./lib/list');
-// wechat.API = require('wechat-enterprise-api');
-// wechat.util = require('./lib/util');
+wechat_im.util = require('./lib/util');
+wechat_im.API = require('./lib/api');
 module.exports = wechat_im;
