@@ -42,7 +42,7 @@ describe('api_session.js', function() {
         var chatid = config.chatid;
         
         api.getChat(chatid, function(err, data, res) {
-        	console.log(data);
+        	// console.log(data);
             expect(err).not.to.be.ok();
             expect(data).to.have.property('errmsg', 'ok');
             expect(data.chat_info).to.be.an('object');
@@ -50,4 +50,6 @@ describe('api_session.js', function() {
             done();
         });
     });
+
+    
 });
