@@ -1,5 +1,5 @@
 TESTS = test/*.test.js
-REPORTER = landing
+REPORTER = spec
 TIMEOUT = 20000
 ISTANBUL = ./node_modules/.bin/istanbul
 MOCHA = ./node_modules/mocha/bin/_mocha
