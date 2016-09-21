@@ -1,6 +1,6 @@
 {
   "name": "wechat-enterprise-im",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "微信公共平台企业号版本-企业号消息库",
   "main": "index.js",
   "scripts": {
