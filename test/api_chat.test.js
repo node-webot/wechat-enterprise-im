@@ -20,7 +20,7 @@ describe('api_chat.js', function() {
             };
             var sender = "0003";
             var msgtype = "text";
-            var content = "来自企业号IM的问候";
+            var content = "来自企业号IM的问候,hahaha";
             api.send(receiver, sender, msgtype, content, function(err, data, res) {
                 expect(err).not.to.be.ok();
                 expect(data).to.have.property('errmsg', 'ok');
